@@ -12,9 +12,7 @@ body,html{
     width: 100vw;
     background-color: #111;
     color: white;
-    position: absolute;
-    
-    
+    position: absolute;  
 }
 #green{
     width: 100%;
@@ -62,7 +60,6 @@ display: flex;
   height:100vh;
   width: 100vw;
   background-color:#0C090D;
-  
 }
 
 /* NAVBAR */
@@ -71,7 +68,6 @@ display: flex;
   justify-content: space-between;
   height: 100px;
   position:sticky;
-   
 }
 .logo{
   color: white;
@@ -79,7 +75,7 @@ display: flex;
 }
 .logo #name{
   font-family:Orbitron;
-  font-size: 1.1rem;
+  font-size: 1.1em;
 }
 .logo #pw{
   font-family:poppins;
@@ -112,9 +108,6 @@ color: white;
   overflow-x:hidden;
   display:flex;
   max-width: 100vw; /* Constrain max width */
-
-
-  
 }
 .lefthalf img{
   height: 80vh;
