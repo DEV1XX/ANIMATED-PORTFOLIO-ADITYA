@@ -301,11 +301,31 @@ text-shadow: rgb(183, 182, 181) 1px 0 15px;
   background-size:cover;
 }
 
+#mongodbicon{
+  background-image: url(mongodbicon.png);
+  background-size:cover;
+}
+#expressjsicon{
+  background-image: url(expressjsicon.png);
+  background-size:cover;
+}
+
+#bootstrapicon{
+  background-image: url(bootstrapicon.png);
+  background-size:cover;
+}
+
+#tailwindicon{
+  background-image: url(tailwindicon.png);
+  background-size:cover;
+}
+
 /* PROJECTS PAGE */
 .projectspage{
   height:100vh;
   width: 100vw;
   background-color:#0C090D;
+  overflow-y:scroll;
 }
 .projectstitle{
   color:white;

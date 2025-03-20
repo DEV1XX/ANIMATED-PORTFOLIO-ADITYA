@@ -24,6 +24,8 @@
    
     <!-- menu icon -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
 </head>
 <body>    
    <div id="loaderpage">
@@ -124,31 +126,37 @@
                 <div class="skillname">GITHUB</div>
             </div>
             <div class="skill">
-                <div class="skillicon"></div>
-                <div class="skillname">SKILL</div>
+                <div class="skillicon" id="mongodbicon"></div>
+                <div class="skillname">MONGO DB</div>
             </div>
             <div class="skill">
-                <div class="skillicon"></div>
-                <div class="skillname">SKILL</div>
+                <div class="skillicon" id="expressjsicon"></div>
+                <div class="skillname">EXPRESS JS</div>
             </div>
             <div class="skill">
-                <div class="skillicon"></div>
-                <div class="skillname">SKILL</div>
+                <div class="skillicon" id="bootstrapicon"></div>
+                <div class="skillname">BOOTSTRAP</div>
             </div>
             <div class="skill">
-                <div class="skillicon"></div>
-                <div class="skillname">SKILL</div>
+                <div class="skillicon" id="tailwindicon"></div>
+                <div class="skillname">TAILWIND</div>
             </div>
         </div>
     </div>
     <div class="projectspage">
         <div class="projectstitle">PROJECTS</div>
         <div class="projectsdiv">
-            <div class="project"># JAVACSRIPT BUBBLE GAME
-               <a href="https://bubble-game-dev1xx-git-main-dev1xxs-projects.vercel.app/ " target=”_blank”>click here to visit </a>
-            </div>
+            <div class="project"># TRANSMART : Mern based Expense tracking and management app.
+                <a href=""target=”_blank”>Work in progress.</a>
+             </div>
+             <div class="project"># DESIDELICACY : A ReactJS based frontend food app.
+                <a href="https://desidelicacy.vercel.in"target=”_blank”>click here to visit</a>
+             </div>
             <div class="project"># ANIMATED PORTFOLIO WEBSITE
                <a href="https://animated-portfolio-aditya-narayan-mali-13s64q39r.vercel.app/"target=”_blank”>click here to visit </a>
+            </div>
+            <div class="project"># JAVACSRIPT BUBBLE GAME
+               <a href="https://bubble-game-dev1xx-git-main-dev1xxs-projects.vercel.app/ " target=”_blank”>click here to visit </a>
             </div>
          <div class="project"># NETFLIX CSS CLONE
             <a target=”_blank” href="https://netflix-css-clone-aditya-git-main-dev1xxs-projects.vercel.app/">click here to visit </a>
@@ -161,8 +169,8 @@
     <div class="contactpage">
      <div class="contacttitle">CONTACT ME</div>
      <div class="contactform">
-        <input type="text" placeholder="*name">
-        <input type="text" placeholder="*email">
+        <input type="text" placeholder="*name" id="sendername">
+        <input type="text" placeholder="*email" id="senderemail">
         <input type="text" id="message" placeholder="*send me a message">
         <button id="sendbtn">SEND</button>
         <p>FIND ME AT:</p>

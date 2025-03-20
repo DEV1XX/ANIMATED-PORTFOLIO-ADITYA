@@ -1,4 +1,5 @@
 
+
 function revealToSpan(){
     document.querySelectorAll(".reveal").forEach((elem)=>{
         //CREATING TWO SPANS
@@ -169,6 +170,10 @@ function scrollToSection(event) {
   }
 }
 
+
+
+
+
 // Function to add click event listeners to all menu links
 function addMenuLinksListeners() {
   const menuLinks = document.querySelectorAll('.link'); // Select all menu links
@@ -206,7 +211,7 @@ gsap.from(".contacttitle,.contactform,.contactlinks",{
   scale:0,
   opacity:0,
   duration:1,
-  scrollTigger:{
+  scrollTrigger:{
     scroller:"body",
     trigger:".contacttitle,.contactform,.contactlinks"
   }
@@ -223,5 +228,34 @@ gsap.from(".projectstitle,.project",{
     scroller:"body",
   }
 })
+
+// //ADD SEND MESSAGE FUNCTIONALITY
+// const sendMessage = function(){
+//   const senderName = document.querySelector('#sendername').value.trim();
+//       const senderEmail = document.querySelector('#senderemail').value.trim();
+//       const message = document.querySelector('#message').value.trim();
+//       if (senderName && senderEmail && message) {
+//         emailjs.init("aOjVIFjEqKFqKFlci"); // Replace with your EmailJS User ID
+//         emailjs.send("service_ncf1poh", "template_9k0yywh", {
+//             from_name: senderName,
+//             from_email: senderEmail,
+//             message: message
+//         }).then(function(response) {
+//             alert("Message sent successfully!");
+//             console.log("SUCCESS!", response.status, response.text);
+//         }, function(error) {
+//             alert("Failed to send message. Please try again.");
+//             console.log("FAILED...", error);
+//         });
+//       //   const senderName = document.querySelector('#sendername').value = "";
+//       // const senderEmail = document.querySelector('#senderemail').value = "";
+//       // const message = document.querySelector('#message').value ="";
+//     } else {
+//         alert("Please fill in all fields.");
+//     }
+
+// }
+// const sendBtn = document.querySelector('#sendbtn');
+// sendBtn.addEventListener('click',sendMessage);
 
   
